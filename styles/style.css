@@ -25,6 +25,8 @@
     width: 183px;
     height: 32px;
     display: block;
+    background-image: url(../images/logo.svg);
+    background-size: cover;
 }
 
 .header__title {
@@ -46,6 +48,10 @@
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+}
+
+.header__link {
+  color: #2F80ED;
 }
 
 
@@ -86,7 +92,7 @@
 
     
 }
-.paragraph {
+.two-columns__paragraph {
     font-size: 23px;
     font-weight: normal;
     line-height: 34px;
@@ -95,11 +101,11 @@
     
 
 }
-.conclusion {
+.paragraph__span-accent {
     font-weight: bold;
     
 }
-.brief {
+.two-columns__brief {
     font-size: 18px;
     font-weight: normal;
     line-height: 1.2;
@@ -164,7 +170,7 @@
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin: 0px;
     
   }
   
@@ -172,13 +178,13 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
     
     
   }
   
-  .table__text_type_addit {
-    margin-top: 20px;
-  }
+  
 
   .feinman__title {
     
@@ -206,7 +212,7 @@
    .feinman__link {
      position: absolute;
      right: 48px;
-     top: 395px;
+     top: 50%;
      line-height: 51px;
      font-size: 36px;
      font-weight: normal;
@@ -253,13 +259,14 @@
   color: white;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
   align-self: center;
   line-height: 69px;
   font-size: 60px;
-  font-weight: semibold;
+  font-weight: bold;
   text-align: center;
   width: 60%;
   margin-top: 90px;
@@ -283,10 +290,10 @@
   width: 1100px;
   justify-content: space-between;
   text-align: left;
-  z-index: 3;
+  
 }
 
-.kaufman__section-title_theme_dark {
+.kaufman__table {
   margin: 0px auto 90px auto;
 }
 
@@ -299,7 +306,7 @@
 .table__heading_theme_dark {
   line-height: 69px;
   font-size: 60px;
-  font-weight: semibold;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -315,7 +322,9 @@
     height: 877px;
     top: 0px;
     right: -210px;
-    z-index: 2;
+    z-index: -1;
+    background-image: url(../images/triangle.svg);
+    background-size: cover;
 }
 
 .footer {
