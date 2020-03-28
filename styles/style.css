@@ -105,6 +105,10 @@ color: #2F80ED;
   margin-top: 0px;
 }
 
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
 .two-columns__paragraph {
   font-size: 24px;
   font-weight: normal;
@@ -112,10 +116,12 @@ color: #2F80ED;
   text-align: left;
   margin-top: 0px;
   margin-bottom: 30px;
- 
-  
 
 }
+
+
+
+
 .paragraph__span-accent {
   font-weight: bold;
   
