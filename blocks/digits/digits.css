@@ -1,0 +1,9 @@
+@import url(./__section-title/digits__section-title.css);
+@import url(./__table/digits__table.css);
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }

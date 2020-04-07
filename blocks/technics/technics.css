@@ -1,0 +1,10 @@
+@import url(./__section-title/technics__section-title.css);
+
+.technics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    
+    
+}

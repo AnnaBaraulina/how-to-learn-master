@@ -1,0 +1,45 @@
+.footer__column-link {
+    color: #FFF;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    }
+
+.footer__column-link-fb:before {
+    content: '';
+    position: relative;
+    top: 1px;
+    margin-right: 8px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(../../../images/facebook_white.svg);
+    width: 16px;
+    height: 16px;
+        }
+        
+.footer__column-link-vk:before {
+    content: '';
+    position: relative;
+    top: 1px;
+    margin-right: 8px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(../../../images/vk_white.svg);
+    width: 16px;
+    height: 16px;
+
+}
+            
+.footer__column-link-in:before {
+    content: '';
+    position: relative;
+    top: 1px;
+    margin-right: 8px;
+    display: inline-block;
+    background-size: cover;
+    background-image: url(../../../images/instagram_white.svg);
+    width: 16px;
+    height: 16px;
+      
+      }           

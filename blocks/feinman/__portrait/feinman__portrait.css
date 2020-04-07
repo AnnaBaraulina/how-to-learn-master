@@ -1,0 +1,8 @@
+.feinman__portrait {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 867px;
+    height: 637px;
+}
