@@ -2,6 +2,7 @@
     width: 515px;
     height: 316px;
     margin: 0px 20px 0px 0px;
+    border: 0;
 }
 
 .video__iframe:nth-of-type(2n) {

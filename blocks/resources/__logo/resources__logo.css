@@ -5,3 +5,8 @@
     
 
 }
+
+.resources__logo:hover {
+    opacity: 50%;
+    transition: ease-in-out;
+}
